@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\dtos\\inmuebledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dtos\\inmuebledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\controllers\\areascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\areascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\entities\\inmueble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\entities\\inmueble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\dtos\\areadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dtos\\areadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,8 +49,77 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InmueblesController.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\InmueblesController.cs",
+              "RelativeDocumentMoniker": "Almacen\\Controllers\\InmueblesController.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\InmueblesController.cs*",
+              "RelativeToolTip": "Almacen\\Controllers\\InmueblesController.cs*",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:37:59.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AreasController.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\AreasController.cs",
+              "RelativeDocumentMoniker": "Almacen\\Controllers\\AreasController.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\AreasController.cs",
+              "RelativeToolTip": "Almacen\\Controllers\\AreasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:35:53.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Area.cs",
+              "RelativeDocumentMoniker": "Almacen\\Entities\\Area.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Area.cs",
+              "RelativeToolTip": "Almacen\\Entities\\Area.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:35:48.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InmuebleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\InmuebleDTO.cs",
+              "RelativeDocumentMoniker": "Almacen\\DTOs\\InmuebleDTO.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\InmuebleDTO.cs",
+              "RelativeToolTip": "Almacen\\DTOs\\InmuebleDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:35:43.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AreaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\AreaDTO.cs",
+              "RelativeDocumentMoniker": "Almacen\\DTOs\\AreaDTO.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\AreaDTO.cs",
+              "RelativeToolTip": "Almacen\\DTOs\\AreaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:35:39.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Inmueble.cs",
               "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Inmueble.cs",
               "RelativeDocumentMoniker": "Almacen\\Entities\\Inmueble.cs",

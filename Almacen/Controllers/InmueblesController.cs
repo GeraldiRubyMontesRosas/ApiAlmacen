@@ -27,7 +27,6 @@ namespace Almacen.Controllers
             this.mapper = mapper;
             this.almacenadorImagenes = almacenadorImagenes;
         }
-        //ijfdvo
         [HttpGet("obtener-por-id/{id:int}")]
         public async Task<ActionResult<InmuebleDTO>> GetById(int id)
         {
@@ -69,11 +68,12 @@ namespace Almacen.Controllers
         public async Task<ActionResult> Post(InmuebleDTO dto)
         {
             var existeInmueble = await context.Inmuebles.AnyAsync(n => n.Nombre == dto.Nombre &&
-                                                                 n.Cantidad == dto.Cantidad);
+                                                                       n.Cantidad == dto.Cantidad);
             if (existeInmueble)
             {
                 return Conflict();
             }
+
             try
             {
                 if (!string.IsNullOrEmpty(dto.ImagenBase64))
@@ -83,25 +83,28 @@ namespace Almacen.Controllers
 
                 if (!string.IsNullOrEmpty(dto.QrBase64))
                 {
-
                     dto.Qr = await almacenadorImagenes.GuardarImagen(dto.QrBase64, directorioQr);
                 }
 
-
                 var inmueble = mapper.Map<Inmueble>(dto);
+
                 inmueble.Area = await context.Areas.SingleOrDefaultAsync(b => b.Id == dto.Area.Id);
+                if (inmueble.Area == null)
+                {
+                    return BadRequest("Área no encontrada.");
+                }
 
                 context.Inmuebles.Add(inmueble);
                 await context.SaveChangesAsync();
 
                 return Ok();
-
             }
             catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new { message = "Error al crear inmueble", details = ex.Message });
             }
         }
+
 
         [HttpDelete("eliminar/{id:int}")]
         public async Task<ActionResult> Delete(int id)

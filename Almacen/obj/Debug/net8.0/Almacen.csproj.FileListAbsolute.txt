@@ -104,3 +104,4 @@ C:\Users\rubym\Downloads\Almacen_Api-main\Almacen\obj\Debug\net8.0\refint\Almace
 C:\Users\rubym\Downloads\Almacen_Api-main\Almacen\obj\Debug\net8.0\Almacen.pdb
 C:\Users\rubym\Downloads\Almacen_Api-main\Almacen\obj\Debug\net8.0\Almacen.genruntimeconfig.cache
 C:\Users\rubym\Downloads\Almacen_Api-main\Almacen\obj\Debug\net8.0\ref\Almacen.dll
+C:\Users\rubym\Downloads\Almacen_Api-main\Almacen\obj\Debug\net8.0\Almacen.sourcelink.json
