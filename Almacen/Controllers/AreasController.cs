@@ -76,15 +76,11 @@ namespace Almacen.Controllers
 
             try
             {
-                // Guardar cambios en la base de datos dentro de una transacción
                 await context.SaveChangesAsync();
                 return Ok();
-                // return Ok(new { success = true });
             }
             catch (Exception ex)
             {
-                // Manejar errores de base de datos
-                // return StatusCode(500, new { error = "Error interno del servidor.", details = ex.Message });
                 return StatusCode(500);
             }
         }
