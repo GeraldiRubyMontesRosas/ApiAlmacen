@@ -27,7 +27,7 @@ namespace Almacen.Controllers
             this.mapper = mapper;
             this.almacenadorImagenes = almacenadorImagenes;
         }
-
+        //ijfdvo
         [HttpGet("obtener-por-id/{id:int}")]
         public async Task<ActionResult<InmuebleDTO>> GetById(int id)
         {
