@@ -11,5 +11,6 @@ namespace Almacen
         }
         public DbSet<Area> Areas { get; set; }
         public DbSet<Inmueble> Inmuebles { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

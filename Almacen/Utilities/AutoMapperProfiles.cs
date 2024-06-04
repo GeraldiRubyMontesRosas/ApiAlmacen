@@ -17,6 +17,10 @@ namespace Almacen.Utilities
 
             CreateMap<InmuebleDTO, Inmueble>();
 
+            CreateMap<UsuarioDTO, Usuario>();
+
+            CreateMap<Usuario, UsuarioDTO>();
+
         }
     }
 }
