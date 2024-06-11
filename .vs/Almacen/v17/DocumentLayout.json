@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Migrations\\20240603223418_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Almacen\\Migrations\\20240603223418_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\services\\almacenadorimageneslocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\services\\almacenadorimageneslocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,32 +11,28 @@
       "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\controllers\\areascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\areascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\services\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\services\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\services\\almacenadorimageneslocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\services\\almacenadorimageneslocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\dtos\\inmuebledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dtos\\inmuebledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\entities\\inmueble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\entities\\inmueble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\dtos\\areadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dtos\\areadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|c:\\users\\rubym\\downloads\\almacen_api-main\\almacen\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{139C51B9-0828-49CE-A934-472F48D89F77}|Almacen\\Almacen.csproj|solutionrelative:almacen\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,39 +42,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20240603223418_usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Migrations\\20240603223418_usuarios.cs",
-              "RelativeDocumentMoniker": "Almacen\\Migrations\\20240603223418_usuarios.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Migrations\\20240603223418_usuarios.cs",
-              "RelativeToolTip": "Almacen\\Migrations\\20240603223418_usuarios.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Title": "IAuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Services\\IAuthorizationService.cs",
+              "RelativeDocumentMoniker": "Almacen\\Services\\IAuthorizationService.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Services\\IAuthorizationService.cs",
+              "RelativeToolTip": "Almacen\\Services\\IAuthorizationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:34:18.81Z",
+              "WhenOpened": "2024-06-11T16:33:54.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Startup.cs",
+              "RelativeDocumentMoniker": "Almacen\\Startup.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Startup.cs",
+              "RelativeToolTip": "Almacen\\Startup.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:30:23.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Program.cs",
+              "RelativeDocumentMoniker": "Almacen\\Program.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Program.cs",
+              "RelativeToolTip": "Almacen\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:30:21.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Almacen\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Almacen\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:30:18.148Z",
               "EditorCaption": ""
             },
             {
@@ -109,9 +104,9 @@
               "RelativeDocumentMoniker": "Almacen\\Utilities\\AutoMapperProfiles.cs",
               "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Utilities\\AutoMapperProfiles.cs",
               "RelativeToolTip": "Almacen\\Utilities\\AutoMapperProfiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:29:27.505Z",
+              "WhenOpened": "2024-06-11T16:30:13.27Z",
               "EditorCaption": ""
             },
             {
@@ -124,151 +119,50 @@
               "RelativeToolTip": "Almacen\\Services\\AlmacenadorImagenesLocal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:29:24.776Z",
+              "WhenOpened": "2024-06-11T16:30:06.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Startup.cs",
-              "RelativeDocumentMoniker": "Almacen\\Startup.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Startup.cs",
-              "RelativeToolTip": "Almacen\\Startup.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Almacen\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Almacen\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:29:07.929Z",
+              "WhenOpened": "2024-06-11T16:18:06.48Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Almacen\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Almacen\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:28:26.695Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Almacen\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Almacen\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAAAHoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:27:32.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "Almacen\\DTOs\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\UsuarioDTO.cs",
-              "RelativeToolTip": "Almacen\\DTOs\\UsuarioDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:24:09.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "Almacen\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Usuario.cs",
-              "RelativeToolTip": "Almacen\\Entities\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:23:02.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InmueblesController.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\InmueblesController.cs",
-              "RelativeDocumentMoniker": "Almacen\\Controllers\\InmueblesController.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\InmueblesController.cs",
-              "RelativeToolTip": "Almacen\\Controllers\\InmueblesController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwv0cAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:37:59.01Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AreasController.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\AreasController.cs",
-              "RelativeDocumentMoniker": "Almacen\\Controllers\\AreasController.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Controllers\\AreasController.cs",
-              "RelativeToolTip": "Almacen\\Controllers\\AreasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Services\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "Almacen\\Services\\AuthorizationService.cs",
+              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Services\\AuthorizationService.cs",
+              "RelativeToolTip": "Almacen\\Services\\AuthorizationService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:35:53.757Z",
+              "WhenOpened": "2024-06-11T16:30:02.827Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Area.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Area.cs",
-              "RelativeDocumentMoniker": "Almacen\\Entities\\Area.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Area.cs",
-              "RelativeToolTip": "Almacen\\Entities\\Area.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:35:48.365Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InmuebleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\InmuebleDTO.cs",
-              "RelativeDocumentMoniker": "Almacen\\DTOs\\InmuebleDTO.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\InmuebleDTO.cs",
-              "RelativeToolTip": "Almacen\\DTOs\\InmuebleDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:35:43.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AreaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\AreaDTO.cs",
-              "RelativeDocumentMoniker": "Almacen\\DTOs\\AreaDTO.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\DTOs\\AreaDTO.cs",
-              "RelativeToolTip": "Almacen\\DTOs\\AreaDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:35:39.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Inmueble.cs",
-              "DocumentMoniker": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Inmueble.cs",
-              "RelativeDocumentMoniker": "Almacen\\Entities\\Inmueble.cs",
-              "ToolTip": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\Entities\\Inmueble.cs",
-              "RelativeToolTip": "Almacen\\Entities\\Inmueble.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T18:23:22.433Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

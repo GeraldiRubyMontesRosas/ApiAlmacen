@@ -10,6 +10,7 @@
         public Area Area { get; set; }
         public string? Imagen { get; set; }
         public string? Qr { get; set; }
+        public float? Costo { get; set; }
         public bool Estatus { get; set; }
 
     }

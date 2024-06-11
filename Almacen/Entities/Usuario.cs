@@ -11,5 +11,8 @@ namespace Almacen.Entities
         public string Correo { get; set; }
         public string Password { get; set; }
         public bool Estatus { get; set; }
+        public Rol Rol { get; set; }
+        public int? ResponsableId { get; set; }
+        public Responsable? Responsable { get; set; }
     }
 }

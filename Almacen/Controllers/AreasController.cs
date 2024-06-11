@@ -24,6 +24,7 @@ namespace Almacen.Controllers
         public async Task<ActionResult<AreaDTO>> GetById(int id)
         {
             var area = await context.Areas
+                 .Include(g => g.Responsable)
                 .FirstOrDefaultAsync(u => u.Id == id);
 
             if (area == null)
@@ -37,7 +38,9 @@ namespace Almacen.Controllers
         [HttpGet("obtener-todos")]
         public async Task<ActionResult<List<AreaDTO>>> GetAll()
         {
+
             var area = await context.Areas
+                .Include(g => g.Responsable)
                 .OrderBy(u => u.Id)
                 .ToListAsync();
 
@@ -71,6 +74,12 @@ namespace Almacen.Controllers
             // Mapeo del DTO a la entidad
             var area = mapper.Map<Area>(dto);
 
+            area.Responsable = await context.Responsables.SingleOrDefaultAsync(b => b.Id == dto.Responsable.Id);
+            if (area.Responsable == null)
+            {
+                return BadRequest("Área no encontrada.");
+            }
+
             // Incluir la entidad en el contexto
             context.Add(area);
 
@@ -95,11 +104,22 @@ namespace Almacen.Controllers
                 return NotFound();
             }
 
+            // Ensure the Area navigation property is included
+            var tieneDependencias = await context.Inmuebles
+                                                 .Include(os => os.Area)
+                                                 .AnyAsync(os => os.Area.Id == id);
+
+            if (tieneDependencias)
+            {
+                return StatusCode(502, new { error = "No se puede eliminar el operador debido a dependencias existentes." });
+            }
+
             context.Areas.Remove(area);
             await context.SaveChangesAsync();
 
             return NoContent();
         }
+
 
         [HttpPut("actualizar/{id:int}")]
         public async Task<ActionResult> Put(int id, [FromBody] AreaDTO dto)

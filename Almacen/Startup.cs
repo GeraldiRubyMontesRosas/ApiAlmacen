@@ -4,6 +4,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System;
+using AlmacenAuthorizationService = Almacen.Services.IAuthorizationService;
 
 namespace Almacen
 {
@@ -39,7 +44,7 @@ namespace Almacen
 
             services.AddAutoMapper(typeof(Startup));
 
-            
+            services.AddScoped<AlmacenAuthorizationService, AuthorizationService>();
 
             var key = Configuration.GetValue<string>("JwtSettings:key");
             var keyBytes = Encoding.UTF8.GetBytes(key);

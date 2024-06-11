@@ -67,12 +67,7 @@ namespace Almacen.Controllers
         [HttpPost("crear")]
         public async Task<ActionResult> Post(InmuebleDTO dto)
         {
-            var existeInmueble = await context.Inmuebles.AnyAsync(n => n.Nombre == dto.Nombre &&
-                                                                       n.Cantidad == dto.Cantidad);
-            if (existeInmueble)
-            {
-                return Conflict();
-            }
+           
 
             try
             {

@@ -10,16 +10,35 @@ namespace Almacen.Utilities
         {
             CreateMap<AreaDTO, Area>();
 
-            CreateMap<Area, AreaDTO>();
+            CreateMap<Area, AreaDTO>()
+                 .ForMember(dest => dest.Responsable, opt => opt.MapFrom(src => src.Responsable));
 
             CreateMap<Inmueble, InmuebleDTO>()
                 .ForMember(dest => dest.Area, opt=>opt.MapFrom(src => src.Area));
 
             CreateMap<InmuebleDTO, Inmueble>();
 
+            CreateMap<Rol, RolDTO>();
+            CreateMap<RolDTO, Rol>();
+
             CreateMap<UsuarioDTO, Usuario>();
 
-            CreateMap<Usuario, UsuarioDTO>();
+            CreateMap<Usuario, UsuarioDTO>()
+                .ForMember(dest => dest.Responsable, opt => opt.MapFrom(src => src.Responsable))
+                .ForMember(dest => dest.Rol, opt => opt.MapFrom(src => src.Rol));
+
+            CreateMap<Claim, ClaimDTO>()
+               .ForMember(dest => dest.RolId, opt => opt.MapFrom(src => src.Rol.Id))
+               .IncludeMembers(src => src.Rol);
+
+            CreateMap<Rol, ClaimDTO>()
+                .ForMember(dest => dest.RolId, opt => opt.MapFrom(src => src.Id));
+
+
+            CreateMap<Responsable, ResponsableDTO>()
+                .ForMember(dest => dest.NombreCompleto, opt => opt.MapFrom(src => $"{src.Nombres} {src.ApellidoPaterno} {src.ApellidoMaterno}"))
+                .ForMember(dest => dest.StrFechaNacimiento, opt => opt.MapFrom(src => $"{src.FechaNacimiento:dd/MM/yyyy}"));
+            CreateMap<ResponsableDTO, Responsable>();
 
         }
     }

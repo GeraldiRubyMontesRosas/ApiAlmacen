@@ -1,5 +1,6 @@
 ﻿using Almacen.DTOs;
 using Almacen.Entities;
+using Almacen.Migrations;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,8 @@ namespace Almacen.Controllers
         public async Task<ActionResult<UsuarioDTO>> GetById(int id)
         {
             var usuario = await context.Usuarios
+                .Include(u => u.Rol)
+                .Include(u => u.Responsable)
                 .FirstOrDefaultAsync(u => u.Id == id);
 
             if (usuario == null)
@@ -38,6 +41,8 @@ namespace Almacen.Controllers
         public async Task<ActionResult<List<UsuarioDTO>>> GetAll()
         {
             var usuarios = await context.Usuarios
+                 .Include(i => i.Rol)
+                .Include(i => i.Responsable)
                 .OrderBy(u => u.Id)
                 .ToListAsync();
 
@@ -58,9 +63,22 @@ namespace Almacen.Controllers
                 {
                     return BadRequest(ModelState);
                 }
-
                 var usuario = mapper.Map<Usuario>(dto);
-              
+                usuario.Rol = await context.Rols.SingleOrDefaultAsync(r => r.Id == dto.Rol.Id);
+                usuario.ResponsableId = null;
+                usuario.Responsable = null;
+
+                if (dto.Rol.Id == 2)
+                {
+
+                    if (await context.Usuarios.AnyAsync(c => c.Responsable.Id == dto.Responsable.Id))
+                    {
+                        return Conflict();
+                    }
+
+                    usuario.Responsable = await context.Responsables.SingleOrDefaultAsync(o => o.Id == dto.Responsable.Id);
+                }
+            
                 context.Add(usuario);
                 await context.SaveChangesAsync();
                 return Ok();
@@ -96,6 +114,7 @@ namespace Almacen.Controllers
             }
 
             var usuario = await context.Usuarios.FindAsync(id);
+            var currentResponsableId = usuario?.ResponsableId;
 
             if (usuario == null)
             {
@@ -103,7 +122,25 @@ namespace Almacen.Controllers
             }
 
             mapper.Map(dto, usuario);
-           
+            usuario.Rol = await context.Rols.SingleOrDefaultAsync(r => r.Id == dto.Rol.Id);
+            usuario.ResponsableId = null;
+            usuario.Responsable = null;
+
+            if (dto.Rol.Id == 2)
+            {
+                if (currentResponsableId != null && currentResponsableId != dto.Responsable.Id)
+                {
+                    var existsUserResponsable = await context.Usuarios.AnyAsync(c => c.Responsable.Id == dto.Responsable.Id);
+                    if (existsUserResponsable)
+                    {
+                        return Conflict();
+                    }
+                }
+
+                usuario.Responsable = await context.Responsables.SingleOrDefaultAsync(o => o.Id == dto.Responsable.Id);
+                usuario.ResponsableId = usuario.Responsable.Id;
+            }
+
             context.Update(usuario);
 
             try
