@@ -55,7 +55,6 @@ namespace Almacen.Services
                 return new AppUserAuthDTO
                 {
                     UsuarioId = user.User.Id,
-                    NombreCompleto = $"{user.User.Nombre} {user.User.ApellidoPaterno} {user.User.ApellidoMaterno}",
                     Email = user.User.Correo,
                     RolId = user.Rol.Id,
                     Rol = user.Rol.NombreRol,
@@ -85,7 +84,6 @@ namespace Almacen.Services
             var claims = new List<System.Security.Claims.Claim>
     {
         new System.Security.Claims.Claim("usuarioId", user.User.Id.ToString()),
-        new System.Security.Claims.Claim("nombreCompleto", $"{user.User.Nombre} {user.User.ApellidoPaterno} {user.User.ApellidoMaterno}"),
         new System.Security.Claims.Claim("rolId", user.Rol.Id.ToString()),
         new System.Security.Claims.Claim("rol", user.Rol.NombreRol),
     };

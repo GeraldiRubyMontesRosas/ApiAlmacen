@@ -81,7 +81,7 @@ namespace Almacen.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<float?>("Costo")
+                    b.Property<float>("Costo")
                         .HasColumnType("float");
 
                     b.Property<string>("Descripcion")
@@ -92,6 +92,7 @@ namespace Almacen.Migrations
                         .HasColumnType("tinyint(1)");
 
                     b.Property<string>("Imagen")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Nombre")
@@ -99,6 +100,7 @@ namespace Almacen.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Qr")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
@@ -155,6 +157,9 @@ namespace Almacen.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<bool>("Estatus")
+                        .HasColumnType("tinyint(1)");
+
                     b.Property<string>("NombreRol")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -190,14 +195,6 @@ namespace Almacen.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    b.Property<string>("ApellidoMaterno")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ApellidoPaterno")
-                        .IsRequired()
-                        .HasColumnType("longtext");
 
                     b.Property<string>("Correo")
                         .IsRequired()

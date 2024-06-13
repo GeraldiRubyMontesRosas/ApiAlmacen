@@ -185,6 +185,32 @@
   },
   {
     "ContainingType": "Almacen.Controllers.InmueblesController",
+    "Method": "GetBycodigo",
+    "RelativePath": "api/inmuebles/obtener-por-codigo/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Almacen.DTOs.InmuebleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Almacen.Controllers.InmueblesController",
     "Method": "GetById",
     "RelativePath": "api/inmuebles/obtener-por-id/{id}",
     "HttpMethod": "GET",

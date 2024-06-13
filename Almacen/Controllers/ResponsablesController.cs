@@ -93,7 +93,20 @@ namespace Almacen.Controllers
             {
                 return NotFound();
             }
-
+            var tieneDependencias = await context.Usuarios
+                                         .Include(os => os.Responsable)
+                                         .AnyAsync(os => os.Responsable.Id == id);
+            if (tieneDependencias)
+            {
+                return StatusCode(502, new { error = "No se puede eliminar el operador debido a dependencias existentes." });
+            }
+            var tieneDependencias2 = await context.Areas
+                                         .Include(os => os.Responsable)
+                                         .AnyAsync(os => os.Responsable.Id == id);
+            if (tieneDependencias2)
+            {
+                return StatusCode(502, new { error = "No se puede eliminar el operador debido a dependencias existentes." });
+            }
             context.Responsables.Remove(responsable);
             await context.SaveChangesAsync();
 

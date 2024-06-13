@@ -7,11 +7,12 @@
         public string Nombre { get; set; }
         public int Cantidad { get; set; }
         public string Descripcion { get; set; }
+        public int AreaId { get; set; }
         public Area Area { get; set; }
-        public string? Imagen { get; set; }
-        public string? Qr { get; set; }
-        public float? Costo { get; set; }
+        public string Imagen { get; set; }
+        public string Qr { get; set; }
         public bool Estatus { get; set; }
+        public float Costo { get; set; }
 
     }
 }

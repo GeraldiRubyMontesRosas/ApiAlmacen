@@ -41,6 +41,21 @@ namespace Almacen.Controllers
 
             return Ok(mapper.Map<InmuebleDTO>(inmueble));
         }
+    
+        [HttpGet("obtener-por-codigo/{codigo}")]
+        public async Task<ActionResult<InmuebleDTO>> GetBycodigo(string codigo)
+        {
+            var inmueble = await context.Inmuebles
+                .Include(g => g.Area)
+                .FirstOrDefaultAsync(b => b.Codigo == codigo);
+
+            if (inmueble == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(mapper.Map<InmuebleDTO>(inmueble));
+        }
 
         [HttpGet("obtener-todos")]
         public async Task<ActionResult> GetAll()

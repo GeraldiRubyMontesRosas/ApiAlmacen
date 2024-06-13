@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Qr\\04eb7e0e-4194-4795-ae1f-a446564b1d1e.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\08bf2c6e-8a92-47c7-979a-3f4f911bbc9e.jpg",
+      "PackagePath": "staticwebassets\\Qr\\08bf2c6e-8a92-47c7-979a-3f4f911bbc9e.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\0c19cb9d-aee7-4051-a3cb-c023e4486d99.jpg",
       "PackagePath": "staticwebassets\\Qr\\0c19cb9d-aee7-4051-a3cb-c023e4486d99.jpg"
     },
@@ -15,6 +19,14 @@
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\1277f96a-818f-4f9f-8a9a-a0004b120b52.jpg",
       "PackagePath": "staticwebassets\\Qr\\1277f96a-818f-4f9f-8a9a-a0004b120b52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\15ad6173-2cc3-4ee6-a8bf-ea2331657a9b.jpg",
+      "PackagePath": "staticwebassets\\Qr\\15ad6173-2cc3-4ee6-a8bf-ea2331657a9b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\1669ec8b-9ca2-47f5-8470-5e2239040a98.jpg",
+      "PackagePath": "staticwebassets\\Qr\\1669ec8b-9ca2-47f5-8470-5e2239040a98.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\1674a693-3f11-41e8-8e2b-535080618d6b.jpg",
@@ -37,12 +49,20 @@
       "PackagePath": "staticwebassets\\Qr\\31597c2d-d58f-4131-bbb7-c9b3b7665d6d.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\370c239a-0505-4c8c-9e36-f110ac57765b.jpg",
+      "PackagePath": "staticwebassets\\Qr\\370c239a-0505-4c8c-9e36-f110ac57765b.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\3993b00d-95be-4632-826e-5f13e176a54e.jpg",
       "PackagePath": "staticwebassets\\Qr\\3993b00d-95be-4632-826e-5f13e176a54e.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\3cdf8fb1-15b8-4608-8c10-4cc6c766efbd.jpg",
       "PackagePath": "staticwebassets\\Qr\\3cdf8fb1-15b8-4608-8c10-4cc6c766efbd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\3d5ee2bb-8173-4d4f-a5ea-df82c50b1f33.jpg",
+      "PackagePath": "staticwebassets\\Qr\\3d5ee2bb-8173-4d4f-a5ea-df82c50b1f33.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\4078949d-ee71-4c6a-afe4-a41afbe7bbee.jpg",
@@ -61,6 +81,10 @@
       "PackagePath": "staticwebassets\\Qr\\479fac91-65d6-4d8d-bfef-3c1175e8ef0c.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\4a968941-8951-4fad-85fb-ac820195d21d.jpg",
+      "PackagePath": "staticwebassets\\Qr\\4a968941-8951-4fad-85fb-ac820195d21d.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\4df134bd-460a-4ac3-93b1-1374f528f98e.jpg",
       "PackagePath": "staticwebassets\\Qr\\4df134bd-460a-4ac3-93b1-1374f528f98e.jpg"
     },
@@ -77,8 +101,20 @@
       "PackagePath": "staticwebassets\\Qr\\58d66882-991e-4b72-9e97-f4381debdbe1.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\58dd1fc4-a24d-466e-a5c5-cef3b846d93f.jpg",
+      "PackagePath": "staticwebassets\\Qr\\58dd1fc4-a24d-466e-a5c5-cef3b846d93f.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\5d6de5a7-f8e6-4457-b900-2466ab0e125e.jpg",
       "PackagePath": "staticwebassets\\Qr\\5d6de5a7-f8e6-4457-b900-2466ab0e125e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\5ef3e7e3-6773-4079-ad3c-01105b8ff13d.jpg",
+      "PackagePath": "staticwebassets\\Qr\\5ef3e7e3-6773-4079-ad3c-01105b8ff13d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\60ac7ba6-cd47-4916-816b-878fa8871e20.jpg",
+      "PackagePath": "staticwebassets\\Qr\\60ac7ba6-cd47-4916-816b-878fa8871e20.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\6125fb7d-d152-40d2-831a-56065a4db94d.jpg",
@@ -93,12 +129,24 @@
       "PackagePath": "staticwebassets\\Qr\\7531f4f2-ece3-4882-b5dd-bf219cd773d9.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\8934214d-8580-4a2f-965e-d8acac4764d6.jpg",
+      "PackagePath": "staticwebassets\\Qr\\8934214d-8580-4a2f-965e-d8acac4764d6.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\8da2a61b-1a44-4e62-b701-373e2703df8c.jpg",
       "PackagePath": "staticwebassets\\Qr\\8da2a61b-1a44-4e62-b701-373e2703df8c.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\90f8e091-052c-446d-8081-96520ebb14b7.jpg",
       "PackagePath": "staticwebassets\\Qr\\90f8e091-052c-446d-8081-96520ebb14b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\918e62fa-8f27-4b73-a331-b7142b68eb78.jpg",
+      "PackagePath": "staticwebassets\\Qr\\918e62fa-8f27-4b73-a331-b7142b68eb78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\98a1f07b-158d-4ba8-8ca5-261c04b38141.jpg",
+      "PackagePath": "staticwebassets\\Qr\\98a1f07b-158d-4ba8-8ca5-261c04b38141.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\9f44af26-44d5-470e-be77-cd2eded62f54.jpg",
@@ -111,6 +159,10 @@
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\a49d76bf-02ae-4161-9eec-0a18db11e745.jpg",
       "PackagePath": "staticwebassets\\Qr\\a49d76bf-02ae-4161-9eec-0a18db11e745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\a94ae874-84f1-483b-b4fb-4b9d48465659.jpg",
+      "PackagePath": "staticwebassets\\Qr\\a94ae874-84f1-483b-b4fb-4b9d48465659.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\aaf436ad-6383-4084-9e42-b2faad2e968d.jpg",
@@ -141,12 +193,36 @@
       "PackagePath": "staticwebassets\\Qr\\bc9e2a55-f48b-4408-ae52-5bb82b5c6cdf.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\bf59b894-dc3f-4b3b-8f1b-f3c5ffcdd2d2.jpg",
+      "PackagePath": "staticwebassets\\Qr\\bf59b894-dc3f-4b3b-8f1b-f3c5ffcdd2d2.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\bf7d940b-a4b2-496c-a434-7380e85623b8.jpg",
       "PackagePath": "staticwebassets\\Qr\\bf7d940b-a4b2-496c-a434-7380e85623b8.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\dcab6766-3b22-4c2f-b29b-f52874770fd3.jpg",
       "PackagePath": "staticwebassets\\Qr\\dcab6766-3b22-4c2f-b29b-f52874770fd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\dec5363c-a333-4aa9-8040-df0612b267a0.jpg",
+      "PackagePath": "staticwebassets\\Qr\\dec5363c-a333-4aa9-8040-df0612b267a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\eab76e9d-dce6-40f6-aa02-b5129701e47e.jpg",
+      "PackagePath": "staticwebassets\\Qr\\eab76e9d-dce6-40f6-aa02-b5129701e47e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\edcbfb5c-2a3f-4628-9e2e-98afed9ce3d7.jpg",
+      "PackagePath": "staticwebassets\\Qr\\edcbfb5c-2a3f-4628-9e2e-98afed9ce3d7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\f17f8980-a4f2-487f-9bdb-5891805c5268.jpg",
+      "PackagePath": "staticwebassets\\Qr\\f17f8980-a4f2-487f-9bdb-5891805c5268.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\f56e3eac-d7b4-415e-83e1-bac83a635093.jpg",
+      "PackagePath": "staticwebassets\\Qr\\f56e3eac-d7b4-415e-83e1-bac83a635093.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\Qr\\fdb2bd4b-fa39-496a-b2d2-39a50d8e2723.jpg",
@@ -157,6 +233,10 @@
       "PackagePath": "staticwebassets\\Qr\\fe696277-8411-40bc-8664-df11a9539621.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\02391147-74f7-4634-acf2-5fc37aac999b.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\02391147-74f7-4634-acf2-5fc37aac999b.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\0339c399-a376-44b6-8d18-056437dbbd90.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\0339c399-a376-44b6-8d18-056437dbbd90.jpg"
     },
@@ -165,8 +245,16 @@
       "PackagePath": "staticwebassets\\inmuebles\\0a5c6baf-6c23-4fbe-a3b4-e15ca91612e0.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\0d2c4d31-33eb-4626-b79f-23d860c8c1d4.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\0d2c4d31-33eb-4626-b79f-23d860c8c1d4.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\0fef2838-7a3f-45ed-b453-a108066ebe24.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\0fef2838-7a3f-45ed-b453-a108066ebe24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\16230acc-ee41-4ad2-94a3-9956858ff1cf.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\16230acc-ee41-4ad2-94a3-9956858ff1cf.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\167fd55a-428c-45f0-99cd-7b1221ee9a94.jpg",
@@ -193,6 +281,18 @@
       "PackagePath": "staticwebassets\\inmuebles\\21a61ff8-f613-4ea0-942f-7c9077d6903c.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\23432b0e-c0b3-4be6-a3da-87a396fa1fe4.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\23432b0e-c0b3-4be6-a3da-87a396fa1fe4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\23aaddf4-573a-43ed-92a3-631ba051c612.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\23aaddf4-573a-43ed-92a3-631ba051c612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\258e251f-5433-4955-8f7e-f7a5de59bca1.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\258e251f-5433-4955-8f7e-f7a5de59bca1.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\347076ee-e2ef-4286-9b47-e03d2c0c111e.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\347076ee-e2ef-4286-9b47-e03d2c0c111e.jpg"
     },
@@ -213,8 +313,20 @@
       "PackagePath": "staticwebassets\\inmuebles\\4be72e7c-5edf-4dc7-8925-7f8ff9792996.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\4cb6c5f4-d29e-432d-bdf9-cc2d8ab71f15.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\4cb6c5f4-d29e-432d-bdf9-cc2d8ab71f15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\5ec5edbf-c3cd-42df-9838-9a93ecb1c3bb.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\5ec5edbf-c3cd-42df-9838-9a93ecb1c3bb.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\60869365-875d-4842-9159-38a073df6d65.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\60869365-875d-4842-9159-38a073df6d65.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\65a7aa86-7985-4270-a8d8-a268ecd4edcc.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\65a7aa86-7985-4270-a8d8-a268ecd4edcc.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\678da300-c9fe-40e7-bcd2-6a370ec33a73.jpg",
@@ -231,6 +343,10 @@
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\6ed7e75f-58cc-40b5-aedd-78c807b2d672.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\6ed7e75f-58cc-40b5-aedd-78c807b2d672.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\73023b47-8928-48df-9b6b-62eafba8ad6b.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\73023b47-8928-48df-9b6b-62eafba8ad6b.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\73db0836-be4a-4ea9-9dbe-1defb88df6d7.jpg",
@@ -261,6 +377,10 @@
       "PackagePath": "staticwebassets\\inmuebles\\87df23af-3fce-4fea-a05a-61c5593b2749.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\8d4df9b1-98d7-42a6-9fba-0fd7f3f34921.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\8d4df9b1-98d7-42a6-9fba-0fd7f3f34921.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\8f9abe8f-9a6d-4dc9-a8ae-c870bb498bc9.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\8f9abe8f-9a6d-4dc9-a8ae-c870bb498bc9.jpg"
     },
@@ -273,12 +393,32 @@
       "PackagePath": "staticwebassets\\inmuebles\\92cc2fdd-ded8-4f8b-b878-6fed96ecbdbc.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\a1a52f3c-f332-452b-b13e-64a45dccdd6e.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\a1a52f3c-f332-452b-b13e-64a45dccdd6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\a37d763d-9479-46aa-913e-dda993250702.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\a37d763d-9479-46aa-913e-dda993250702.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\aacfd0f6-a966-404d-ab66-5318edfeb4f0.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\aacfd0f6-a966-404d-ab66-5318edfeb4f0.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\b2df8298-9fe9-483a-8fd4-605c7be8cbc5.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\b2df8298-9fe9-483a-8fd4-605c7be8cbc5.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\ba615a09-3be1-4f6b-a87e-477dffdd521d.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\ba615a09-3be1-4f6b-a87e-477dffdd521d.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\bcdbf3b4-0b91-4408-8ab0-19b04a243856.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\bcdbf3b4-0b91-4408-8ab0-19b04a243856.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\c2fa9933-7069-433a-9108-b43a40ab40f7.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\c2fa9933-7069-433a-9108-b43a40ab40f7.jpg"
     },
     {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\c894f853-6b6e-4194-8543-e11e2f35bee4.jpg",
@@ -297,6 +437,10 @@
       "PackagePath": "staticwebassets\\inmuebles\\cf6e2a0c-6024-4e76-8b2c-2cbfaeb4b729.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\d11ffcc9-9ecb-4d5a-a1d6-31ff1e5dc7b8.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\d11ffcc9-9ecb-4d5a-a1d6-31ff1e5dc7b8.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\eddeddd9-c908-4867-869b-802243963c5a.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\eddeddd9-c908-4867-869b-802243963c5a.jpg"
     },
@@ -305,8 +449,16 @@
       "PackagePath": "staticwebassets\\inmuebles\\f62833d5-881b-4b25-92fa-f1ae48f7db6c.jpg"
     },
     {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\f707c7f0-784f-4b57-b4b8-f84c132a9bff.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\f707c7f0-784f-4b57-b4b8-f84c132a9bff.jpg"
+    },
+    {
       "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\fc767f12-67ac-41d9-a4da-74ef8be6f742.jpg",
       "PackagePath": "staticwebassets\\inmuebles\\fc767f12-67ac-41d9-a4da-74ef8be6f742.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rubym\\Downloads\\Almacen_Api-main\\Almacen\\wwwroot\\inmuebles\\ff573ec6-a132-4e49-b9a6-3ed8c4f3901b.jpg",
+      "PackagePath": "staticwebassets\\inmuebles\\ff573ec6-a132-4e49-b9a6-3ed8c4f3901b.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Almacen.Microsoft.AspNetCore.StaticWebAssets.props",

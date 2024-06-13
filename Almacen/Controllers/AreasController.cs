@@ -1,5 +1,6 @@
 ﻿using Almacen.DTOs;
 using Almacen.Entities;
+using Almacen.Migrations;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -62,23 +63,17 @@ namespace Almacen.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Verificación de la existencia del usuario
-            var exiteArea = await context.Areas.AnyAsync(u => u.Nombre == dto.Nombre);
+            // Verificación de la existencia del área por nombre
+            var existeArea = await context.Areas.AnyAsync(u => u.Nombre == dto.Nombre);
 
-            if (exiteArea)
+            if (existeArea)
             {
-                // return Conflict(new { error = "El usuario ya existe." });
                 return Conflict();
             }
 
             // Mapeo del DTO a la entidad
             var area = mapper.Map<Area>(dto);
-
-            area.Responsable = await context.Responsables.SingleOrDefaultAsync(b => b.Id == dto.Responsable.Id);
-            if (area.Responsable == null)
-            {
-                return BadRequest("Área no encontrada.");
-            }
+           
 
             // Incluir la entidad en el contexto
             context.Add(area);
@@ -93,6 +88,7 @@ namespace Almacen.Controllers
                 return StatusCode(500);
             }
         }
+
 
         [HttpDelete("eliminar/{id:int}")]
         public async Task<ActionResult> Delete(int id)

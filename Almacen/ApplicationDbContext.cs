@@ -5,10 +5,12 @@ namespace Almacen
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
         }
+
+        // Define tus DbSets aquí
         public DbSet<Area> Areas { get; set; }
         public DbSet<Claim> Claims { get; set; }
         public DbSet<Inmueble> Inmuebles { get; set; }
@@ -16,6 +18,5 @@ namespace Almacen
         public DbSet<Rol> Rols { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<UserSession> UserSessions { get; set; }
-        
     }
 }
