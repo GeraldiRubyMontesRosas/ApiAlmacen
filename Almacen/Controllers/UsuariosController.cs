@@ -2,12 +2,14 @@
 using Almacen.Entities;
 using Almacen.Migrations;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Almacen.Controllers
 {
+    [Authorize]
     [Route("api/usuarios")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -67,6 +69,7 @@ namespace Almacen.Controllers
                 usuario.Rol = await context.Rols.SingleOrDefaultAsync(r => r.Id == dto.Rol.Id);
                 usuario.ResponsableId = null;
                 usuario.Responsable = null;
+
 
                 if (dto.Rol.Id == 2)
                 {

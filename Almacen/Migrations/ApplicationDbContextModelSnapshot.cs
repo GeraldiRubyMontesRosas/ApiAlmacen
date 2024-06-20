@@ -32,7 +32,7 @@ namespace Almacen.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("ResponsableId")
+                    b.Property<int?>("ResponsableId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -169,6 +169,40 @@ namespace Almacen.Migrations
                     b.ToTable("Rols");
                 });
 
+            modelBuilder.Entity("Almacen.Entities.Traslado", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("AreaDestinoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AreaOrigenId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaHoraCreacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int?>("InmuebleId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AreaDestinoId");
+
+                    b.HasIndex("AreaOrigenId");
+
+                    b.HasIndex("InmuebleId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Traslados");
+                });
+
             modelBuilder.Entity("Almacen.Entities.UserSession", b =>
                 {
                     b.Property<int>("Id")
@@ -207,6 +241,10 @@ namespace Almacen.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("NombreCompleto")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -230,9 +268,7 @@ namespace Almacen.Migrations
                 {
                     b.HasOne("Almacen.Entities.Responsable", "Responsable")
                         .WithMany()
-                        .HasForeignKey("ResponsableId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ResponsableId");
 
                     b.Navigation("Responsable");
                 });
@@ -257,6 +293,39 @@ namespace Almacen.Migrations
                         .IsRequired();
 
                     b.Navigation("Area");
+                });
+
+            modelBuilder.Entity("Almacen.Entities.Traslado", b =>
+                {
+                    b.HasOne("Almacen.Entities.Area", "AreaDestino")
+                        .WithMany()
+                        .HasForeignKey("AreaDestinoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Almacen.Entities.Area", "AreaOrigen")
+                        .WithMany()
+                        .HasForeignKey("AreaOrigenId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Almacen.Entities.Inmueble", "Inmueble")
+                        .WithMany()
+                        .HasForeignKey("InmuebleId");
+
+                    b.HasOne("Almacen.Entities.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AreaDestino");
+
+                    b.Navigation("AreaOrigen");
+
+                    b.Navigation("Inmueble");
+
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Almacen.Entities.Usuario", b =>

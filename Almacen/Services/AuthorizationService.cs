@@ -31,7 +31,7 @@ namespace Almacen.Services
                               {
                                   User = u,
                                   Rol = r,
-                                  ResponsableId = u.Rol.Id == 3 ? u.ResponsableId : null,
+                                  ResponsableId = u.Rol.Id == 2 ? u.ResponsableId : null,
                               }).FirstOrDefaultAsync();
 
             if (user != null)
@@ -55,13 +55,14 @@ namespace Almacen.Services
                 return new AppUserAuthDTO
                 {
                     UsuarioId = user.User.Id,
+                    NombreCompleto = $"{user.User.Nombre}",
                     Email = user.User.Correo,
                     RolId = user.Rol.Id,
                     Rol = user.Rol.NombreRol,
                     IsAuthenticated = true,
                     Token = token,
                     Claims = claims,
-                    ResponsableId = user.Rol.Id == 3 ? user.ResponsableId : null,
+                    ResponsableId = user.Rol.Id == 2 ? user.ResponsableId : null,
                 };
             }
 
@@ -84,6 +85,7 @@ namespace Almacen.Services
             var claims = new List<System.Security.Claims.Claim>
     {
         new System.Security.Claims.Claim("usuarioId", user.User.Id.ToString()),
+        new System.Security.Claims.Claim("nombreCompleto", $"{user.User.Nombre}"),
         new System.Security.Claims.Claim("rolId", user.Rol.Id.ToString()),
         new System.Security.Claims.Claim("rol", user.Rol.NombreRol),
     };

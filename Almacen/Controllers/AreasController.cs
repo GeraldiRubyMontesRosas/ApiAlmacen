@@ -73,7 +73,12 @@ namespace Almacen.Controllers
 
             // Mapeo del DTO a la entidad
             var area = mapper.Map<Area>(dto);
-           
+            area.ResponsableId = null;
+            area.Responsable = null;
+            if (dto.Responsable != null && dto.Responsable.Id > 0)
+            {
+                area.Responsable = await context.Responsables.FindAsync(dto.Responsable.Id);
+            }
 
             // Incluir la entidad en el contexto
             context.Add(area);

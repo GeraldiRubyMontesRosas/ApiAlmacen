@@ -15,17 +15,22 @@ namespace Almacen.Controllers
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
         private readonly IAlmacenadorImagenes almacenadorImagenes;
+        private readonly IAlmacenadorPdf almacenadorPdf;
+
         private readonly string directorioInmuebles = "inmuebles";
+        private readonly string directorioPDF = "PDF";
         private readonly string directorioQr = "Qr";
 
         public InmueblesController(
                    ApplicationDbContext context,
                    IMapper mapper,
-                   IAlmacenadorImagenes almacenadorImagenes)
+                   IAlmacenadorImagenes almacenadorImagenes,
+                   IAlmacenadorPdf almacenadorPdf)
         {
             this.context = context;
             this.mapper = mapper;
             this.almacenadorImagenes = almacenadorImagenes;
+            this.almacenadorPdf = almacenadorPdf;
         }
         [HttpGet("obtener-por-id/{id:int}")]
         public async Task<ActionResult<InmuebleDTO>> GetById(int id)
@@ -41,21 +46,24 @@ namespace Almacen.Controllers
 
             return Ok(mapper.Map<InmuebleDTO>(inmueble));
         }
-    
-        [HttpGet("obtener-por-codigo/{codigo}")]
-        public async Task<ActionResult<InmuebleDTO>> GetBycodigo(string codigo)
-        {
-            var inmueble = await context.Inmuebles
-                .Include(g => g.Area)
-                .FirstOrDefaultAsync(b => b.Codigo == codigo);
 
-            if (inmueble == null)
+        [HttpGet("obtener-por-codigo/{codigo}")]
+        public async Task<ActionResult> GetBycodigo(string codigo)
+        {
+            // Buscar todos los inmuebles que coincidan con el código proporcionado
+            var inmuebles = await context.Inmuebles
+                .Include(g => g.Area)
+                .Where(i => i.Codigo == codigo) // Filtrar por el código
+                .ToListAsync();
+
+            if (inmuebles == null || inmuebles.Count == 0)
             {
-                return NotFound();
+                return NotFound(); // Retornar 404 si no se encuentran resultados
             }
 
-            return Ok(mapper.Map<InmuebleDTO>(inmueble));
+            return Ok(mapper.Map<List<InmuebleDTO>>(inmuebles));
         }
+
 
         [HttpGet("obtener-todos")]
         public async Task<ActionResult> GetAll()
@@ -94,6 +102,11 @@ namespace Almacen.Controllers
                 if (!string.IsNullOrEmpty(dto.QrBase64))
                 {
                     dto.Qr = await almacenadorImagenes.GuardarImagen(dto.QrBase64, directorioQr);
+                }
+
+                if (!string.IsNullOrEmpty(dto.PDFBase64))
+                {
+                    dto.PDF = await almacenadorPdf.GuardarPDF(dto.PDFBase64, directorioPDF);
                 }
 
                 var inmueble = mapper.Map<Inmueble>(dto);
@@ -146,6 +159,7 @@ namespace Almacen.Controllers
             {
                 return NotFound();
             }
+            inmueble.Costo = dto.Costo;
 
             if (!string.IsNullOrEmpty(dto.ImagenBase64))
             {
