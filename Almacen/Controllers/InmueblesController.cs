@@ -64,6 +64,23 @@ namespace Almacen.Controllers
             return Ok(mapper.Map<List<InmuebleDTO>>(inmuebles));
         }
 
+        [HttpGet("obtener-por-area/{idarea}")]
+        public async Task<ActionResult> GetByArea(int idarea)
+        {
+            // Buscar todos los inmuebles que coincidan con el nombre del área proporcionado
+            var inmuebles = await context.Inmuebles
+                .Include(g => g.Area)
+                .Where(i => i.Area.Id == idarea) // Filtrar por el nombre del área
+                .ToListAsync();
+
+            if (inmuebles == null || inmuebles.Count == 0)
+            {
+                return NotFound(); // Retornar 404 si no se encuentran resultados
+            }
+
+            return Ok(mapper.Map<List<InmuebleDTO>>(inmuebles));
+        }
+
 
         [HttpGet("obtener-todos")]
         public async Task<ActionResult> GetAll()
@@ -90,8 +107,6 @@ namespace Almacen.Controllers
         [HttpPost("crear")]
         public async Task<ActionResult> Post(InmuebleDTO dto)
         {
-           
-
             try
             {
                 if (!string.IsNullOrEmpty(dto.ImagenBase64))
@@ -120,7 +135,8 @@ namespace Almacen.Controllers
                 context.Inmuebles.Add(inmueble);
                 await context.SaveChangesAsync();
 
-                return Ok();
+                // Devuelve el ID del inmueble creado
+                return Ok(new { id = inmueble.Id });
             }
             catch (Exception ex)
             {
@@ -160,6 +176,16 @@ namespace Almacen.Controllers
                 return NotFound();
             }
             inmueble.Costo = dto.Costo;
+
+
+            if (!string.IsNullOrEmpty(dto.PDFBase64))
+            {
+                dto.PDF = await almacenadorPdf.GuardarPDF(dto.PDFBase64, directorioPDF);
+            }
+            else
+            {
+                dto.PDF = inmueble.PDF;
+            }
 
             if (!string.IsNullOrEmpty(dto.ImagenBase64))
             {

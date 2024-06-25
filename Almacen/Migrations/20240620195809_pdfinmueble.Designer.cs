@@ -3,6 +3,7 @@ using System;
 using Almacen;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Almacen.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240620195809_pdfinmueble")]
+    partial class pdfinmueble
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -184,9 +187,6 @@ namespace Almacen.Migrations
                     b.Property<int>("AreaOrigenId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CreadoInmuebleId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("FechaHoraCreacion")
                         .HasColumnType("datetime(6)");
 
@@ -201,8 +201,6 @@ namespace Almacen.Migrations
                     b.HasIndex("AreaDestinoId");
 
                     b.HasIndex("AreaOrigenId");
-
-                    b.HasIndex("CreadoInmuebleId");
 
                     b.HasIndex("InmuebleId");
 
@@ -317,12 +315,6 @@ namespace Almacen.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Almacen.Entities.Inmueble", "CreadoInmueble")
-                        .WithMany()
-                        .HasForeignKey("CreadoInmuebleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Almacen.Entities.Inmueble", "Inmueble")
                         .WithMany()
                         .HasForeignKey("InmuebleId")
@@ -338,8 +330,6 @@ namespace Almacen.Migrations
                     b.Navigation("AreaDestino");
 
                     b.Navigation("AreaOrigen");
-
-                    b.Navigation("CreadoInmueble");
 
                     b.Navigation("Inmueble");
 

@@ -21,6 +21,9 @@
   <ItemGroup>
     <Folder Include="Migrations\" />
     <Folder Include="Script\" />
+    <Folder Include="wwwroot\inmuebles\" />
+    <Folder Include="wwwroot\PDF\" />
+    <Folder Include="wwwroot\Qr\" />
   </ItemGroup>
 
 </Project>

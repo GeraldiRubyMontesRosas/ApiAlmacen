@@ -13,7 +13,7 @@
         public string Qr { get; set; }
         public bool Estatus { get; set; }
         public float Costo { get; set; }
-        public string? Factura { get; set; }
+        public string? PDF { get; set; }
 
     }
 }

@@ -18,6 +18,5 @@ namespace Almacen.DTOs
         public string? PDFBase64 { get; set; }
         public float Costo { get; set; }
         public bool Estatus { get; set; }
-        public string? Factura { get; set; }
     }
 }

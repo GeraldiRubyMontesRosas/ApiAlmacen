@@ -1,3 +1,20 @@
-INSERT INTO simpatizantes.claims (ClaimType, ClaimValue, RolId) VALUES
+INSERT INTO almacen.rols (nombreRol,Estatus)
+VALUES 
+('Administrador',true),
+('Responsable',true);
+
+INSERT INTO almacen.claims (ClaimType, ClaimValue, RolId) VALUES
 ('CanAccessInicio', 1, 1),
-('CanAccessTraslados', 1, 1));
+('CanAccessArea', 1, 1),
+('CanAccessInmueble', 1, 1),
+('CanAccessResponsable', 1, 1),
+('CanAccessScanner', 1, 1),
+('CanAccessUsuarios', 1, 1),
+('CanAccessTraslados', 1, 1);
+INSERT INTO almacen.claims (ClaimType, ClaimValue, RolId) VALUES
+('CanAccessInicio', 1, 2),
+('CanAccessInmueble', 1, 2);
+
+INSERT INTO almacen.usuarios (Nombre,Correo,Password,Estatus,NombreCompleto, RolId)
+VALUES 
+('ruby montes','admin@gmail.com','12345678',true,'ruby',1);

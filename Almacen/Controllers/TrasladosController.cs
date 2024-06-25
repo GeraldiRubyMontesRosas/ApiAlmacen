@@ -36,6 +36,7 @@ namespace Almacen.Controllers
         {
             var traslado = await context.Traslados
                  .Include(g => g.Inmueble)
+                 .Include(g => g.CreadoInmueble)
                  .Include(g => g.AreaOrigen)
                  .Include(g => g.Usuario)
                  .Include(g => g.AreaDestino)
@@ -55,6 +56,7 @@ namespace Almacen.Controllers
 
             var area = await context.Traslados
                 .Include(g => g.Inmueble)
+                .Include(g => g.CreadoInmueble)
                  .Include(g => g.AreaOrigen)
                  .Include(g => g.Usuario)
                  .Include(g => g.AreaDestino)
@@ -111,7 +113,12 @@ namespace Almacen.Controllers
             {
                 return BadRequest("Inmuble no encontrado.");
             }
-           
+
+            traslado.CreadoInmueble = await context.Inmuebles.SingleOrDefaultAsync(b => b.Id == dto.CreadoInmueble.Id);
+            if (traslado.CreadoInmueble == null)
+            {
+                return BadRequest("Inmuble no encontrado.");
+            }
 
 
             // Incluir la entidad en el contexto

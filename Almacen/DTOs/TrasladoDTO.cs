@@ -6,6 +6,7 @@ namespace Almacen.DTOs
     {
         public int? Id { get; set; }
         public InmuebleDTO Inmueble { get; set; }
+        public Inmueble CreadoInmueble { get; set; }
         public AreaDTO AreaOrigen { get; set; }
         public AreaDTO AreaDestino { get; set; }
         public UsuarioDTO? Usuario { get; set; }

@@ -185,6 +185,22 @@
   },
   {
     "ContainingType": "Almacen.Controllers.InmueblesController",
+    "Method": "GetByArea",
+    "RelativePath": "api/inmuebles/obtener-por-area/{idarea}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idarea",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Almacen.Controllers.InmueblesController",
     "Method": "GetBycodigo",
     "RelativePath": "api/inmuebles/obtener-por-codigo/{codigo}",
     "HttpMethod": "GET",

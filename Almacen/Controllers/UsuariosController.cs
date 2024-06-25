@@ -1,6 +1,7 @@
 ﻿using Almacen.DTOs;
 using Almacen.Entities;
 using Almacen.Migrations;
+using Almacen.Services;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -12,6 +13,8 @@ namespace Almacen.Controllers
     [Authorize]
     [Route("api/usuarios")]
     [ApiController]
+    
+    
     public class UsuariosController : ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -57,7 +60,7 @@ namespace Almacen.Controllers
         }
 
         [HttpPost("crear")]
-        public async Task<ActionResult> Post(UsuarioDTO dto)
+        public async Task<ActionResult> Post([FromBody] UsuarioDTO dto)
         {
             try
             {
@@ -129,6 +132,11 @@ namespace Almacen.Controllers
             usuario.ResponsableId = null;
             usuario.Responsable = null;
 
+            if (dto.NombreCompleto == null)
+            {
+                usuario.NombreCompleto = dto.NombreCompleto;
+                usuario.Nombre = dto.Nombre;
+            }
             if (dto.Rol.Id == 2)
             {
                 if (currentResponsableId != null && currentResponsableId != dto.Responsable.Id)

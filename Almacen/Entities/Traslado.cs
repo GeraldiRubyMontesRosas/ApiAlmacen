@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public Inmueble Inmueble { get; set; }
+        public Inmueble CreadoInmueble { get; set; }
         public Area AreaOrigen { get; set; }
         public Area AreaDestino { get; set; }
         public Usuario Usuario { get; set; }

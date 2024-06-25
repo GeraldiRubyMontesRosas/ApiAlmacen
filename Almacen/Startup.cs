@@ -66,6 +66,7 @@ namespace Almacen
             });
 
             services.AddTransient<IAlmacenadorImagenes, AlmacenadorImagenesLocal>();
+            services.AddTransient<IAlmacenadorPdf, AlmacenadorArchivosLocal>();
             services.AddHttpContextAccessor();
 
 
